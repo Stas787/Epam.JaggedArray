@@ -1,0 +1,5 @@
+root = false
+[*.cs]
+
+# S2368: Public methods should not have multidimensional array parameters
+dotnet_diagnostic.S2368.severity = none
